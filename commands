@@ -1,10 +1,14 @@
 #shutdown server
 shutdown -P now
 
-#Ports einer Netzwerkadresse scannen
+#scan for ports on specific ip
 nmap -sV -p 1-65535 192.168.1.1/24
 
 #ifconfig und Co installieren
 apt-get install net-tools
+
+#read out dns information
+# path /etc/resolv.conf
+resolvectl status
 
 
