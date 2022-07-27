@@ -11,4 +11,9 @@ apt-get install net-tools
 # path /etc/resolv.conf
 resolvectl status
 
+#find file
+find / -name thisfile.txt
+
+
+
 
